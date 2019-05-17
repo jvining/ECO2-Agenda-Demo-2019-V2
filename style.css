@@ -36,7 +36,7 @@ footer [class*="col"] a:hover {color:#fff;}
 
 /* Agenda CSS */
 .agenda-day-nav{transition: all 0.4s ease;}
-.on-scroll-agenda {position:fixed;top:3.5em;left:0;right:0;z-index: 1020;padding-top:.75em;background:#fbfbfb;transition: all 0.4s ease;-webkit-box-shadow: 0 3px 10px 1px rgba(0,0,0,.3)!important;box-shadow: 0 3px 10px 1px rgba(0,0,0,.3)!important;}
+.on-scroll-agenda {position:fixed;top:3.5em;left:0;right:0; padding-top:.75em;background:#fbfbfb;transition: all 0.4s ease;-webkit-box-shadow: 0 3px 10px 1px rgba(0,0,0,.3)!important;box-shadow: 0 3px 10px 1px rgba(0,0,0,.3)!important;}
  
 #agenda-day-container .bg-primary {background:rgba(66, 139, 202, .1)!important;}
 #agenda-day-container .bg-info {background:rgba(91, 192, 222, .2)!important;}
