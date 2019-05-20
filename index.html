@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<!-- Meta -->
-	<title>Starter Bootstrap V4</title>
+	<title>ECO2 Agenda Demo 2019 V2</title>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<meta name="author" content="https://github.com/jvining">
@@ -26,33 +26,32 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
 		<div class="container">
-			<a class="navbar-brand" href="#">Starter Bootstrap V4</a> 
+			<a class="navbar-brand text-secondary" href="#">ECO2 Agenda Demo 2019 V2</a> 
 			<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item mr-2"><a class="nav-link text-uppercase" href="#">Agenda</a></li>
-					<li class="nav-item mr-2"><a class="nav-link text-uppercase" href="#">Speaker</a></li>
-					<li class="nav-item mr-2"><a class="nav-link text-uppercase" href="#">Sponsors</a></li>
-					<li class="nav-item mr-2"><a class="nav-link text-uppercase" href="#">Content</a></li>
-					<li class="nav-item mr-2"><a class="nav-link text-uppercase" href="#">About</a></li>
-					<li class="nav-item mr-2"><a class="nav-link text-uppercase btn btn-sm btn-danger text-white" href="#">Register Now</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Agenda</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Speaker</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Sponsors</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Content</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item mr-2"><a class="nav-link btn btn-sm btn-danger text-white" href="#">Register Now</a></li>
 				</ul>
 			</div>
 		</div>
   	</nav>
  
-	<div id="filter-menu" class="sidenav bg-light" hidden>
+	<div id="filter-menu" hidden>
 		<div class="container mt-5 pt-5">
 			<div class="row mt-3">
 				<div class="col-md-12">
  				  	<form>
 						<div class="form-group pt-1">
-							<p><a class="pull-right fa-2x mb-2 filter_button"><i class="fa fa-times-circle" aria-hidden="true"></i></a></p>
-							<h4 class="text-center">Filter & Sort Session Options</h4>
+ 							<h4 class="text-center">Filter & Sort Session Options <a class="ml-5 pt-5 fa-lg filter_button"><i class="fa fa-times-circle" aria-hidden="true"></i></a> </h4>
  							<label><strong>Expand &amp; View Session Details</strong></label>
 							<ul class="list-unstyled">
 								<li class="mb-2 px-4"><a class="btn btn-sm btn-info btn-block" href="#" id="toggle">+ Expand All Session Details</a></li>
@@ -71,8 +70,8 @@
 							<ul class="list-unstyled">
 								<li class="mb-2"><a class="btn btn-sm btn-block btn-primary scroll" data-offset="220" href="#Track-A">Marketplaces &amp; Globalization</a></li>
 								<li class="mb-2"><a class="btn btn-sm btn-block btn-warning text-white" href="#Track-B">Reimagining Online And Instore</a></li>
-								<li class="mb-2"><a class="btn btn-sm btn-block btn-danger "  href="#Track-C">Customer Acquisition And Conversion Optimization</a></li>
-								<li class="mb-2"><a class="btn btn-sm btn-block btn-success"  href="#Track-D">Marketing Tomorrow's Customers</a></li>
+								<li class="mb-2"><a class="btn btn-sm btn-block btn-danger" href="#Track-C">Customer Acquisition And Conversion Optimization</a></li>
+								<li class="mb-2"><a class="btn btn-sm btn-block btn-success" href="#Track-D">Marketing Tomorrow's Customers</a></li>
 								<li class="mt-5"><a class="btn btn-sm btn-block btn-info" href="#content">Back to Top</a></li>
 							</ul>
 						</div>
@@ -81,12 +80,11 @@
 			</div>
 		</div>
 	</div>
-	<!-- END #mySidenav -->
-	
+  
 	<div id="content">
 		
-		<div class="container mt-5">
-			<div class="row pt-5">
+		<div class="container container mt-5 pt-5">
+			<div class="row">
 				<div class="col-md-12">
  		   			<h1>Day Two: Revolutionizing Retail Experiences </h1>
 					<h3>February 20th, 2019</h3>
@@ -656,7 +654,7 @@
 		<div class="container">
 			<div class="row pt-2">
 				<div class="col-md-8">
-					<p>Starter Bootstrap V4 &copy; 2019</p>
+					<p>ECO2 Agenda Demo 2019 V2 &copy; 2019</p>
   				</div>
 				<div class="col">
 					<ul class="list-unstyled list-inline">
@@ -670,20 +668,9 @@
 	</footer>
 
 	<!-- JS -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-		
-	<script>
-		$('.filter_button').on('click', function() {
-		    if ($("#filter-menu").attr("hidden")) {
- 		        $("#filter-menu").attr("hidden", false);
-		    } 
-			else 
- 				$("#filter-menu").attr("hidden", true);
-			});
-	</script>
-
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
