@@ -8,8 +8,7 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 	if (scroll >= 100) {
         $(".agenda-day-nav").addClass("on-scroll-agenda");
-
-    } else {
+     } else {
         $(".agenda-day-nav").removeClass("on-scroll-agenda");
     }
 });
@@ -37,7 +36,6 @@ $(document).ready(function() {
 	});
 });
  
-
 // Sorting
 $(document).ready(function() {
     $('input[type=radio][name=group1]').change(function() {
@@ -60,15 +58,18 @@ $(document).ready(function() {
         }
     });
 });
-
-
-
+  
 // Clear Sorting
 $('#clearAllButton').click(function() {
 	$('input[type=radio]').prop('checked', false);
 	$(".card , h4.text-secondary").attr('hidden',false);
 });
  
-
- 
- 
+// Filter Menu
+$('.filter_button').on('click', function() {
+	if ($("#filter-menu").attr("hidden")) {
+    	$("#filter-menu").attr("hidden", false);
+	} 
+	else 
+		$("#filter-menu").attr("hidden", true);
+}); 
